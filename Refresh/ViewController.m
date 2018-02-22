@@ -7,10 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "MJRefresh.h"
 
 @interface ViewController () {
 	NSMutableArray *datosTabla;
+	__unsafe_unretained UITableView *tableView;
 }
+
 @property (strong, nonatomic) IBOutlet UITableView *tablaResultados;
 
 @end
@@ -19,9 +22,31 @@
 @synthesize tablaResultados;
 
 - (void)viewDidLoad {
+	
 	[super viewDidLoad];
 	[self inicializarDatos];
 	[tablaResultados reloadData];
+	
+	tableView = tablaResultados;
+	
+	tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+		
+		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+			NSLog(@"Pull to refresh");
+			[tableView.mj_header endRefreshing];
+		});
+	}];
+	
+	tableView.mj_header.automaticallyChangeAlpha = YES;
+
+	tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
+		
+		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+			NSLog(@"Load more");
+			[tableView.mj_footer endRefreshing];
+		});
+	}];
+	
 }
 
 - (void)didReceiveMemoryWarning {
