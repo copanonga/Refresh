@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		738550DD5996E91F87F2EA1E /* libPods-Refresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A52CDA588DCDD3845743F10 /* libPods-Refresh.a */; };
+		D109D768204031EF00D3EE41 /* image002.png in Resources */ = {isa = PBXBuildFile; fileRef = D109D763204031EF00D3EE41 /* image002.png */; };
+		D109D769204031EF00D3EE41 /* Refresh.mov in Resources */ = {isa = PBXBuildFile; fileRef = D109D764204031EF00D3EE41 /* Refresh.mov */; };
+		D109D76A204031EF00D3EE41 /* image003.png in Resources */ = {isa = PBXBuildFile; fileRef = D109D765204031EF00D3EE41 /* image003.png */; };
+		D109D76B204031EF00D3EE41 /* image004.png in Resources */ = {isa = PBXBuildFile; fileRef = D109D766204031EF00D3EE41 /* image004.png */; };
+		D109D76C204031EF00D3EE41 /* image005.png in Resources */ = {isa = PBXBuildFile; fileRef = D109D767204031EF00D3EE41 /* image005.png */; };
 		D1334414203F0CD5005884F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1334413203F0CD5005884F1 /* AppDelegate.m */; };
 		D1334417203F0CD5005884F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1334416203F0CD5005884F1 /* ViewController.m */; };
 		D133441A203F0CD5005884F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1334418203F0CD5005884F1 /* Main.storyboard */; };
@@ -24,6 +29,11 @@
 		33DB113064042C4A3971F0BC /* Pods-Refresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Refresh/Pods-Refresh.debug.xcconfig"; sourceTree = "<group>"; };
 		7A52CDA588DCDD3845743F10 /* libPods-Refresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Refresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA0FCC9134F1660FAB88E15 /* Pods-Refresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Refresh/Pods-Refresh.release.xcconfig"; sourceTree = "<group>"; };
+		D109D763204031EF00D3EE41 /* image002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image002.png; sourceTree = "<group>"; };
+		D109D764204031EF00D3EE41 /* Refresh.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Refresh.mov; sourceTree = "<group>"; };
+		D109D765204031EF00D3EE41 /* image003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image003.png; sourceTree = "<group>"; };
+		D109D766204031EF00D3EE41 /* image004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image004.png; sourceTree = "<group>"; };
+		D109D767204031EF00D3EE41 /* image005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image005.png; sourceTree = "<group>"; };
 		D133440F203F0CD5005884F1 /* Refresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1334412203F0CD5005884F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1334413203F0CD5005884F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 		D133442C203F1566005884F1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D109D763204031EF00D3EE41 /* image002.png */,
+				D109D765204031EF00D3EE41 /* image003.png */,
+				D109D766204031EF00D3EE41 /* image004.png */,
+				D109D767204031EF00D3EE41 /* image005.png */,
+				D109D764204031EF00D3EE41 /* Refresh.mov */,
 				D133442D203F1A5F005884F1 /* image001.png */,
 				D133442E203F1A5F005884F1 /* Refresh.gif */,
 			);
@@ -179,8 +194,13 @@
 				D133441F203F0CD5005884F1 /* LaunchScreen.storyboard in Resources */,
 				D133441C203F0CD5005884F1 /* Assets.xcassets in Resources */,
 				D133442B203F1514005884F1 /* README.md in Resources */,
+				D109D76C204031EF00D3EE41 /* image005.png in Resources */,
+				D109D769204031EF00D3EE41 /* Refresh.mov in Resources */,
+				D109D76B204031EF00D3EE41 /* image004.png in Resources */,
 				D1334430203F1A60005884F1 /* Refresh.gif in Resources */,
+				D109D768204031EF00D3EE41 /* image002.png in Resources */,
 				D133442F203F1A60005884F1 /* image001.png in Resources */,
+				D109D76A204031EF00D3EE41 /* image003.png in Resources */,
 				D1334429203F0FCC005884F1 /* Podfile in Resources */,
 				D133441A203F0CD5005884F1 /* Main.storyboard in Resources */,
 			);
